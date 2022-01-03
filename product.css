@@ -1,0 +1,102 @@
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  font-size: 20px;
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero__img-container {
+  display: flex;
+  justify-content: center;
+  background-image: url("images/ronaldo.jpeg");
+  background-size: cover;
+  width: 100%;
+  padding: 50px 0;
+  height: 500px;
+  align-items: center;
+  flex-flow: column nowrap;
+  color: white;
+}
+.hero__image {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(92, 59, 15);
+}
+
+.page-title {
+  background: rgb(60, 60, 224);
+  min-height: 5vh;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.layout-nav {
+  background: turquoise;
+  align-self: left;
+  height: 5vh;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 80vh;
+  background-image: url("images/ronaldo.jpeg");
+  width: 100%;
+  background-size: cover;
+}
+
+.shoe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  margin: 10px 10px 10px 10px;
+  background-color: white;
+  padding-top: 5px;
+}
+
+.shoe-container:hover {
+  opacity: 0.5;
+}
+
+.shoe-image {
+  width: 200px;
+  height: 200px;
+}
+
+.main-footer {
+  background-color: rgb(214, 139, 145);
+  min-height: 90px;
+  display: flex;
+  width: 90%;
+  height: 10vh;
+}
+
+.company-logo {
+  height: 80%;
+}
+.media-icon {
+  height: 100%;
+}
+
+.contact-html {
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(7, 7, 73);
+  width: 100% margin, 10px;
+}
+.media-links {
+  height: 80%;
+}
