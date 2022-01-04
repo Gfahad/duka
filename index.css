@@ -11,6 +11,7 @@ body {
 
 .nav-bar {
   font-size: 20px;
+  margin: 0 10px;
 }
 
 .layout-main {
@@ -42,10 +43,10 @@ body {
 }
 
 .layout-nav {
-  background: rgb(61, 25, 40);
+  background: chocolate;
   align-self: left;
   height: 100%;
-  color: black;
+  color: rgb(31, 13, 194);
 }
 
 .footer {

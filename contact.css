@@ -85,3 +85,10 @@ input[type="submit"]:hover {
 .center {
   text-align: center;
 }
+.footer {
+  background-color: rgb(214, 139, 145);
+  min-height: 90px;
+  display: flex;
+  width: 90%;
+  height: 10vh;
+}
